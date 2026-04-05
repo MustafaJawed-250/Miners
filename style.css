@@ -144,7 +144,7 @@ height: 310px;
 background-color: white;
 background-size: cover;
 background-repeat: no-repeat;
-background-image: url(assets/hm4.png);
+background-image: url(assets/hm9.png);
 }
 
 
@@ -155,7 +155,7 @@ background-image: url(assets/hm4.png);
 height: 215px;
 background-position: center;
 background-color: white;
-background-image: url(assets/hm5.png);
+background-image: url(assets/hm8.png);
 background-repeat: no-repeat;
 background-size: cover;
 }
@@ -167,7 +167,7 @@ background-size: cover;
     width: 309px;
 height: 250px;
 background-color: white;
-background-image: url(assets/hm6.png);
+background-image: url(assets/hm5.png);
 background-size: cover;
 background-repeat: no-repeat;
 grid-column: 1 /2;
@@ -182,7 +182,7 @@ grid-column: 1 /2;
     width: 323.35px;
 height: 310px;
 background-color: white;
-background-image: url(assets/hm7.png);
+background-image: url(assets/hm4.png);
 background-size: cover;
 background-repeat: no-repeat;
 grid-row: 3 / span 4;
@@ -195,7 +195,7 @@ transform: translateY(-100px);
     width: 329.35px;
 height: 245px;
 background-color: white;
-background-image: url(assets/hm8.png);
+background-image: url(assets/hm7.png);
 background-size: cover;
 background-repeat: no-repeat;
 grid-column: 2 / 3;
@@ -211,7 +211,7 @@ right: 250px;
     width: 288.35px;
 height: 225px;
 background-color: white;
-background-image: url(assets/hm9.png);
+background-image: url(assets/hm6.png);
 background-size: cover;
 background-repeat: no-repeat;
 grid-column: 2 / 3;
@@ -221,7 +221,7 @@ left: 100px;
 }
 
 .img:hover{
-    transform:scale(1.05) ;
+    transform:scale(1.01) ;
 }
 .images:hover{
     transform: scale(1);
@@ -234,7 +234,7 @@ left: 100px;
     .images{
        grid-template-columns: 300px 300px;
  transform: translateX(-70px);  
-     
+     gap: 20px;
     }
     .hero-image img{
         width: 700px;
@@ -245,7 +245,11 @@ left: 100px;
         
         grid-column: unset;
         grid-row: unset;
-        border: 15px solid white;
+        
+    }
+
+    .hero-text h1{
+font-size: 2rem;
     }
     .eight{
         margin-left: 300px;
@@ -277,7 +281,7 @@ left: 100px;
         transition: none;
         grid-column: unset;
         grid-row: unset;
-        border: 15px solid white;
+      
     }
     .eight{
         margin-left: 250px;
@@ -310,7 +314,7 @@ left: 100px;
         transition: none;
         grid-column: unset;
         grid-row: unset;
-        border: 5px solid white;
+      
     }
     .eight{
         margin-left: 250px;
